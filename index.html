@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./design/styles.css">
+
+</head>
+<body>
+  <div class="score">
+    <div class="score__result">
+      <p class="score__result__title">Your Result</p>
+          
+      <div class="score__result__circle">
+        <p class="score__result__circle__value">76</p>
+        <p>of 100</p>
+      </div>
+      <h1>Great</h1>
+      <p class="score__result__text">You scored higher than 65% of the people who have taken these tests.</p>
+      
+    </div>
+    <div class="score__summary">
+      <p class="score__summary__title">Summary</p>
+      
+      <div class="score__summary__item score__summary__item__red">
+        <div class="score__summary__item__icon score__summary__item__icon__red">
+          <img src = "./assets/images/icon-reaction.svg" alt="Reaction icon"/>
+
+          <span>Reaction</span>
+        </div>
+        
+        <div>
+          <span class="score__summary__item__value">80</span>
+          <span class="score__summary__item__maxvalue">/ 100</span>
+        </div>
+        
+      </div>
+      
+      <div class="score__summary__item score__summary__item__yellow">      
+        <div class="score__summary__item__icon score__summary__item__icon__yellow">
+          <img src = "./assets/images/icon-memory.svg" alt="Memory icon"/>
+      
+          <span>Memory</span>
+        </div>
+        
+        <div>
+          <span class="score__summary__item__value">92</span>
+          <span class="score__summary__item__maxvalue">/ 100</span>
+        </div>
+      </div>
+
+      <div class="score__summary__item score__summary__item__green">  
+        <div class="score__summary__item__icon score__summary__item__icon__green">
+
+          <img src = "./assets/images/icon-verbal.svg" alt="Verbal icon"/>
+
+          <span>Verbal</span>
+        </div>
+        
+        <div>
+          <span class="score__summary__item__value">61</span>
+          <span class="score__summary__item__maxvalue">/ 100</span>
+        </div>
+      </div>
+
+      <div class="score__summary__item score__summary__item__blue">   
+        <div class="score__summary__item__icon score__summary__item__icon__blue">
+          <img src = "./assets/images/icon-visual.svg" alt="Visual icon"/>
+        
+          <span>Visual</span>
+        </div>
+
+        <div>
+          <span class="score__summary__item__value">72</span>
+          <span class="score__summary__item__maxvalue">/ 100</span>
+        </div>
+      </div>
+
+      <button type="button" class="score__summary__button">Continue</button>
+      
+    </div>
+  </div>  
+</body>
+</html>
